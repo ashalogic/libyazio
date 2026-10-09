@@ -8,7 +8,7 @@ Minimal independent YAZIO SDK. Python 3.10+, zero runtime dependencies, sync/asy
 pip install "git+https://github.com/ashalogic/libyazio.git@v1.0.0"
 ```
 
-Requires GitHub access to this private repository. Locally: `pip install .`.
+Locally: `pip install .`.
 
 ## Use
 
@@ -61,6 +61,6 @@ python -m build
 ```
 
 - PRs and `main`: test Python 3.10–3.14, build and validate distributions.
-- `main`: publish a private GitHub release with wheel/source archive after tests pass.
+- `main`: publish a GitHub release with wheel/source archive after tests pass.
 - Bump `version` in `pyproject.toml` for a new release. Existing releases stay unchanged.
 - No PyPI publishing.
