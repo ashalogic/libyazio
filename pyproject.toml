@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libyazio"
+version = "1.0.0"
+description = "Minimal independent Python client for the unofficial YAZIO API"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.setuptools]
+py-modules = ["libyazio"]
